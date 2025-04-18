@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Wetter</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Wetter App</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="home" class="main-section">
+        <h5>Wetter App</h5>
+        <div>
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="search">Search</button>
+        </div>
+
+    <div class="weather-info">
+        <h3 id="city-name">-</h3>
+        <p id="temperature">-</p>
+        <p id="weather-description">-</p>
+        <p id="wind">Wind: -</p>
+    </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <h2>Features</h2>
+        <ul>
+            <li>Real-time weather updates</li>
+            <li>Detailed weather descriptions</li>
+            <li>Wind speed and temperature</li>
+        </ul>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About</h2>
+        <p>This weather app provides accurate and up-to-date weather information for almost any city in the world. Built with simplicity and elegance in mind.</p>
+    </section>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
